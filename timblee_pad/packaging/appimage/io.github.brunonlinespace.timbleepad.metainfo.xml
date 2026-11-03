@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.brunonlinespace.timbleepad</id>
+  <name>Timblee Pad</name>
+  <summary>Lightweight source editor for HTML, CSS and XML</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <developer id="io.github.brunonlinespace">
+    <name>Bruno Machado</name>
+  </developer>
+  <url type="homepage">https://github.com/brunonlinespace/timblee-pad</url>
+  <url type="bugtracker">https://github.com/brunonlinespace/timblee-pad/issues</url>
+  <description>
+    <p>Timblee Pad is a lightweight standalone editor for HTML, CSS and XML source files.</p>
+    <p>It provides language-aware highlighting and editing, an insertion Library, editable document templates, and localhost browser preview without an embedded browser engine.</p>
+  </description>
+  <launchable type="desktop-id">timbleepad.desktop</launchable>
+  <provides>
+    <binary>timbleepad</binary>
+    <mediatype>text/html</mediatype>
+    <mediatype>text/css</mediatype>
+    <mediatype>application/xml</mediatype>
+    <mediatype>text/xml</mediatype>
+  </provides>
+  <releases>
+    <release version="0.2.3" date="2026-11-03">
+      <description><p>Corrects the locked public source-root README filename to README.md and updates packaging/source-tree validation accordingly.</p></description>
+    </release>
+    <release version="0.2.2" date="2026-11-03">
+      <description><p>Matches Sheepy Pad editor scrolling behavior by disabling global center-on-scroll while preserving explicit Go To Line centering, and keeps the line-number gutter above a visible horizontal scrollbar.</p></description>
+    </release>
+    <release version="0.2.1" date="2026-11-03">
+      <description><p>Adds the locked public root README and updates packaging/source-tree validation for the new root-level release file.</p></description>
+    </release>
+    <release version="0.2.0" date="2026-09-23">
+      <description><p>Standardizes the portable/AppImage packaging contract for Suite Pythoine and updates the Pad-family slogan, with application behavior otherwise unchanged.</p></description>
+    </release>
+    <release version="0.1.1-exp1" date="2026-08-23">
+      <description><p>Experimental HTML/CSS/XML document profiles, startup document chooser/defaults, editable templates, language-aware Library, simplified split/sidebar layout, and localhost browser preview.</p></description>
+    </release>
+    <release version="0.1.0" date="2026-08-09">
+      <description><p>Promotes Timblee Pad to 0.1.0 with hardened AppImage QA, including real default/dark/light/system GUI theme smoke checks for both AppDir and final AppImage.</p></description>
+    </release>
+    <release version="0.0.1" date="2026-08-07">
+      <description><p>Initial Timblee Pad release, derived from Sheepy Pad 0.0.1-r19 and purpose-built for HTML and CSS source editing.</p></description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+</component>

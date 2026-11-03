@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Timblee Pad
+GenericName=Web and Markup Source Editor
+Comment=A lightweight standalone editor for HTML, CSS and XML source files
+Exec=timbleepad %F
+Icon=timbleepad
+Terminal=false
+MimeType=text/html;text/css;application/xml;text/xml;
+Categories=Development;TextEditor;
+Keywords=HTML;CSS;XML;Web;Markup;Editor;Source;Library;
+StartupNotify=true
+StartupWMClass=timbleepad
+X-AppImage-Version=0.2.3

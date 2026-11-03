@@ -1,0 +1,26 @@
+{
+  "id": "timblee-pad",
+  "name": "Timblee Pad",
+  "description": "A lightweight HTML and CSS editor.",
+  "component_kind": "editor",
+  "extensions": [
+    ".html",
+    ".htm",
+    ".css"
+  ],
+  "portable_command": [
+    "main.py"
+  ],
+  "icon": "timblee_pad/assets/icons/timbleepad.png",
+  "version": "0.2.3",
+  "publisher": "brunonlinespace",
+  "repository": "https://github.com/brunonlinespace/timblee-pad",
+  "desktop_id": "io.github.brunonlinespace.timbleepad",
+  "tagline": "Friendly. Fast. Focused.",
+  "publisher_id": "brunonlinespace",
+  "capabilities": {
+    "routing": true,
+    "open": true,
+    "create": true
+  }
+}
